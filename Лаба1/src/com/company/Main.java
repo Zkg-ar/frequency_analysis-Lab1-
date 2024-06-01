@@ -52,49 +52,6 @@ public class Main {
         return array;
     }
 
-
-
-    //    public static HashMap<Character, Integer> sortByValue(HashMap<Character,Integer> hm)
-//
-//    {
-//
-//        // Создать список из элементов HashMap
-//
-//        List<Map.Entry<Character, Integer> > list =
-//
-//                new LinkedList<Map.Entry<Character, Integer> >(hm.entrySet());
-//
-//        // Сортировка списка
-//
-//        Collections.sort(list, new Comparator<Map.Entry<Character, Integer> >() {
-//
-//            public int compare(Map.Entry<Character, Integer> o1,
-//
-//                               Map.Entry<Character, Integer> o2)
-//
-//            {
-//
-//                return (o2.getValue()).compareTo(o1.getValue());
-//
-//            }
-//
-//        });
-//
-//        // помещаем данные из отсортированного списка в hashmap
-//
-//        HashMap<Character, Integer> temp = new LinkedHashMap<Character, Integer>();
-//
-//        for (Map.Entry<Character, Integer> aa : list) {
-//
-//            temp.put(aa.getKey(), aa.getValue());
-//
-//        }
-//        return temp;
-//
-//    }
-//
-//
-//
     public static ArrayList<Table> frequency_analysis(char[] array){
 
         ArrayList<Table> frequency_table = new ArrayList<>();
